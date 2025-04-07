@@ -1,5 +1,5 @@
 {
-  "name": "jsontophp",
+  "name": "@timkit/json-to-php",
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,21 @@
     "watch": "./node_modules/typescript/bin/tsc --watch",
     "prepublishOnly": "npm run test"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "tinkit.dev",
+  "license": "Apache-2.0",
+  "description": "Convert JSON strings into PHP-style associative arrays.",
   "devDependencies": {
-    "@tsconfig/node20": "^20.1.4",
-    "@types/jest": "^29.5.12",
+    "@tsconfig/node20": "^20.1.5",
+    "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
-    "ts-jest": "^29.2.5",
-    "tsc-watch": "^6.2.0",
-    "typescript": "^5.5.3"
+    "jest-config": "^29.7.0",
+    "ts-jest": "^29.3.1",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.8.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awps/jsonToPhp.git"
+    "url": "git+https://github.com/timkit-dev/json-to-php.git"
   },
   "publishConfig": {
     "access": "public",

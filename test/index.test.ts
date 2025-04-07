@@ -1,4 +1,4 @@
-import {jsonToPhp} from './';
+import {jsonToPhp} from '../src';
 
 describe('jsonToPhp', () => {
     test('convert simple JSON object', () => {

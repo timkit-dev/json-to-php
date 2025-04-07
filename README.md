@@ -168,6 +168,14 @@ try {
 }
 ```
 
+## Project Structure
+
+The project is organized into the following directories:
+
+- `src/` - Source TypeScript files
+- `dist/` - Compiled JavaScript output (generated during build)
+- `test/` - Test files
+
 ## License
 
 Apache-2.0 

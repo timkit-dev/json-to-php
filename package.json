@@ -1,7 +1,8 @@
 {
   "name": "@timkit/json-to-php",
   "version": "1.1.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "npm run build && jest",
     "build": "./node_modules/typescript/bin/tsc",

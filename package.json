@@ -1,6 +1,6 @@
 {
   "name": "@timkit/json-to-php",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,6 +11,17 @@
   },
   "author": "tinkit.dev",
   "license": "Apache-2.0",
+  "keywords": [
+    "json",
+    "php",
+    "convert",
+    "json to php",
+    "json to array",
+    "json to object",
+    "json to associative array",
+    "json2php",
+    "jsontophp"
+  ],
   "description": "Convert JSON strings into PHP-style associative arrays.",
   "devDependencies": {
     "@tsconfig/node20": "^20.1.5",
